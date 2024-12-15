@@ -3,6 +3,8 @@ import './App.css';
 import React from 'react';
 import Greeting from './components/Greeting';
 import Counter from './components/Counter';
+import NameSearch from './components/NameSearch';
+
 
 function App() {
   return (
@@ -11,7 +13,7 @@ function App() {
       <Greeting name="Exile" />
       <br></br>
       <br></br>
-      <Counter></Counter>
+      <NameSearch></NameSearch>
     </div>
   );
 }
